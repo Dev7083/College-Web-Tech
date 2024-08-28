@@ -7,8 +7,8 @@
 - Task 5 - Employee Registration
 - Task 6 - Static Webpage Using Table
 - Task 7 - Webpage Linking
-- Task 8 - temp 
-- Task 9 - temp 
-- Task 10 - temp 
+- Task 8 - Tooltip in Linking
+- Task 9 - Image Map
+- Task 10 - Deployment on Server
 
 ## Live at :- https://dev7083.github.io/College-Web-Tech/
