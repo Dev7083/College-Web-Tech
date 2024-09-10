@@ -28,9 +28,25 @@
             text-align: center; 
             display: grid;
             place-content: center;
+            padding: 40px;
+            margin: 40px;
         }
         tr{
             background-color: aqua;
+        }
+        #two{
+            display: flex;
+            flex-direction: row;
+            background-color: black;
+            color:yellow;
+        }
+        #one{
+            height:10vh;
+            background-color: goldenrod;
+        }
+        #three{
+            height:10vh;
+            background-color: goldenrod;
         }
     </style>
 </head>
@@ -47,8 +63,40 @@
         </nav>
     </nav>
     <main>
-        
-          
+        <div id="one">Sign Up</div>
+        <div id="two">
+            <div style="display: flex;flex-direction: column;"> 
+                <label for="">First Name</label>
+                <label for="">Last Name</label>
+                <label for="">Date of Birth</label>
+                <label for="">Gender</label>
+                <label for="">Country</label>
+                <label for="">Email</label>
+                <label for="">Phone</label>
+                <label for="">Password</label>
+                <label for="">Confirm Password</label>
+                
+            </div>
+            <div style="display: flex;flex-direction: column;">       
+                <input type="text" placeholder="Enter First name">
+            <input type="text" placeholder="Enter last name">
+            <input type="date" placeholder="Enter last name">
+            <input type="radio">Male
+            <input type="radio">Female
+            <select name="" id="">
+                <option value="">Select</option>
+            </select>
+            <input type="email" placeholder="Enter Email">
+            <input type="number" placeholder="Enter Phone">
+            <input type="password" placeholder="Enter Password">
+            <input type="password" placeholder="Enter Confirm Password">
+            <input type="checkbox" name="" id="">I agree to Terms of Use
+        </div>
+        </div>
+        <div id="three">
+            <button>SUbmit Query</button>
+            <button>Cancel</button>
+        </div> 
     </main>
 </body>
 
