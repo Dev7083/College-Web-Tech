@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task Six</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        } */
+
+        main {
+            /* align-content: center;*/
+            text-align: center; 
+            display: grid;
+            place-content: center;
+        }
+        tr{
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <nav>
+            <a href="../" aria-current="page">Home | Assignment -1
+            </a>
+            <a href="../assignment-two/" aria-current="page">Home | Assignment -2
+            </a>
+            <a href="./" aria-current="page">Home | Assignment -3
+            </a>
+        </nav>
+    </nav>
+    <main>
+        <table border="1" width="800px">
+            <tr style="background-color: yellow;color: red;height: 50px;">
+                <td colspan="3">Registration Form</td>
+            </tr>
+            <tr>
+                <td >Enter Name</td>
+                <td colspan="2"><Textarea></Textarea></td>
+            </tr>
+            <tr>
+                <td >Enter Password</td>
+                <td colspan="2"><Textarea></Textarea></td>
+            </tr>
+            <tr>
+                <td >Enter Address</td>
+                <td colspan="2"><Textarea></Textarea></td>
+            </tr>
+            <tr>
+                <td >Select Game</td>
+                <td colspan="2">
+                    <div style="text-align: justify; margin-left: 12rem;">
+                        <input type="checkbox">Hockey <br>
+                        <input type="checkbox">Football<br>
+                        <input type="checkbox">Badminton<br>
+                        <input type="checkbox">Cricket<br>
+                        <input type="checkbox">Volleyball<br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td colspan="2">
+                    <input type="radio">Male
+                    <input type="radio">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Select Your Age</td>
+                <td colspan="2">
+                    <Select>
+                        <option value="">Select</option>
+                        <option value="greater than 18"></option>
+                        <option value="less than 18"></option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select Photo</td>
+                <td colspan="2">
+                    <input type="file">
+                </td>
+            </tr>
+            <tr style="height: 70px;">
+                <td><button>Click Me</button></td>
+                <td><button>Reset</button></td>
+                <td><button>Submit Form</button></td>
+            </tr>
+           
+           
+        
+          </table>
+          
+    </main>
+</body>
+
+</html>
