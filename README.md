@@ -1,5 +1,6 @@
 # Assignments Repo for Web Technology
-
+  
+Assignment -1 
 - Task 1 - Static Webpage Using Table
 - Task 2 - Text Formatting Tags
 - Task 3 - List Tags
@@ -10,5 +11,9 @@
 - Task 8 - Tooltip in Linking
 - Task 9 - Image Map
 - Task 10 - Deployment on Server
+
+Assignment -2 
+
+Assignment -3
 
 ## Live at :- https://dev7083.github.io/College-Web-Tech/
